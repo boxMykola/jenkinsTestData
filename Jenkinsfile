@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh ls > files
+                sh 'cd .'
             }
         }
     }
